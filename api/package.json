@@ -1,0 +1,30 @@
+{
+    "name": "alltrueast",
+    "version": "1.0.0",
+    "description": "barber booking api",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Smrda/alltrueast.git"
+    },
+    "author": "smrda",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Smrda/alltrueast/issues"
+    },
+    "homepage": "https://github.com/Smrda/alltrueast#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^9.0.0",
+        "mongoose": "^6.9.0",
+        "nodemon": "^2.0.20"
+    }
+}
